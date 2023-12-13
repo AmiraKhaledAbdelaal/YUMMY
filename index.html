@@ -1,0 +1,82 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Yummy</title>
+</head>
+
+<body>
+
+    <div class="loading position-fixed top-0 bottom-0 start-0 end-0 justify-content-center align-items-center">
+        <i class="fa fa-spinner fa-spin fa-5x"></i>
+
+    </div>
+    <div class="nav-tab d-flex position-fixed min-vh-100 top-0 bottom-0">
+        <div class="nav-links p-3 d-flex flex-column justify-content-between bg-black">
+            <div class="links">
+                <ul class="list-unstyled overflow-hidden">
+                    <li onclick="displaysearch()" class="position-relative" id="btn-search">Search</li>
+                    <li onclick="getcategors()" class="position-relative">Categories</li>
+                    <li onclick="getarea()" class="position-relative">Area</li>
+                    <li onclick="getingredient()" class="position-relative">Ingredients</li>
+                    <li onclick="getcontact()" class="position-relative">Contact Us</li>
+                </ul>
+            </div>
+            <div class="nav-footer">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-solid fa-globe"></i>
+                <p class="footer">Copyright Â© 2019 All Rights <br>Reserved.</p>
+
+            </div>
+
+        </div>
+        <div class="nav-header text-black d-flex flex-column justify-content-between text-center py-5">
+            <img class="w-100" src="images/logo.png" alt="">
+            <i id="btn-close" class="fa-solid fa-bars fa-2x"></i>
+            <div class="logo">
+                <i class="fa-solid fa-globe d-block p-2"></i>
+                <i class="fa-solid fa-share-nodes p-2"></i>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="min-vh position-relative">
+
+        <div id="search" class="container w-75">
+
+        </div>
+        <div class="inner-loading start-0 end-0 top-0 bottom-0 justify-content-center align-items-center">
+            <i class="fa fa-spinner fa-spin fa-5x"></i>
+
+        </div>
+
+
+        <div class="container">
+            <div id="demo" class="row py-5 g-3">
+
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/code.jquery.com_jquery-3.7.1.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
